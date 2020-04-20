@@ -13,8 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //（１）ラベルに文字を入れる
+        outputLabel.text = "Hello Swift!"
+        
     }
 
-
+    @IBOutlet weak var outputLabel: UILabel!
+    
 }
 
